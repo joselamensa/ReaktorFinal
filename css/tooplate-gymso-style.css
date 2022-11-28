@@ -756,6 +756,9 @@ img {
 .product-detail ul li span {
   font-weight: 400;
 }
+.card-wrapper {
+  margin-top: 70px;
+}
 
 @media screen and (min-width: 992px) {
   .card {
