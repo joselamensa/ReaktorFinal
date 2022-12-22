@@ -781,3 +781,7 @@ img {
 .blurred {
   filter: blur(4px);
 }
+
+.family {
+  margin-bottom: 200px;
+}
