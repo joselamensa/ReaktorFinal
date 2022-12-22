@@ -665,7 +665,7 @@ button#submit-button:hover {
   font-family: "Open Sans", sans-serif;
 }
 .card-wrapper {
-  max-width: 1100px;
+  max-width: 1000px;
   margin: 0 auto;
 }
 img {
@@ -674,6 +674,7 @@ img {
 }
 .img-display {
   overflow: hidden;
+  margin: 40px 10px;
 }
 .img-showcase {
   display: flex;
@@ -687,7 +688,7 @@ img {
   display: flex;
 }
 .img-item {
-  margin: 0.3rem;
+  margin: 0;
 }
 .img-item:hover {
   opacity: 0.8;
