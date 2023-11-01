@@ -351,6 +351,7 @@ a:focus {
      HERO              
   -----------------------------------------*/
 /* Reglas generales para la sección en todos los dispositivos */
+/* Reglas generales para la sección en todos los dispositivos */
 #home {
   position: relative;
   overflow: hidden;
@@ -366,11 +367,11 @@ a:focus {
 }
 
 /* Reglas para dispositivos no móviles (pantallas más grandes) */
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   .hero video {
-    width: 100%; /* Ajusta el ancho del video al 100% del div */
-    height: 100%; /* Ajusta la altura del video al 100% del div */
-    object-fit: cover; /* Cubrir el contenedor manteniendo la relación de aspecto */
+    width: 70%; /* Ajusta el ancho del video al 70% del div */
+    height: 100%; /* Mantiene la altura del video al 100% del div */
+    object-fit: cover; /* Cubre el contenedor manteniendo la relación de aspecto */
   }
 }
 
@@ -379,10 +380,9 @@ a:focus {
   .hero video {
     width: 100%;
     height: 100%;
-    object-fit: cover; /* Cubrir el contenedor manteniendo la relación de aspecto */
+    object-fit: cover; /* Cubre el contenedor manteniendo la relación de aspecto */
   }
 }
-
 /*---------------------------------------
      CLASS               
   -----------------------------------------*/
