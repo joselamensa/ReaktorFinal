@@ -812,3 +812,13 @@ img {
 .family {
   margin-bottom: 200px;
 }
+
+.titulospersonalizados:hover {
+  color: var(--primary-color);
+  outline: none;
+  text-decoration: none;
+  transition: 0.1s ease;
+}
+.sobrenos {
+  color: white;
+}
