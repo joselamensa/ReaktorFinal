@@ -83,7 +83,6 @@
 
     img {
       width: 100%;
-      max-width: 100%; /* Hace que la imagen no sea más grande que su contenedor */
       height: auto;
       margin-top: 50%;
       transition: transform 0.25s ease-in;
