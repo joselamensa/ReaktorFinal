@@ -83,21 +83,10 @@
 
     img {
       width: 100%;
+      max-width: 100%; /* Hace que la imagen no sea más grande que su contenedor */
       height: auto;
+      margin-top: 50%;
       transition: transform 0.25s ease-in;
-    }
-    @media only screen and (min-width: 600px) {
-      /* Ajustes para pantallas más grandes */
-      #product-carousel li {
-        width: 50%;
-      }
-    }
-
-    @media only screen and (min-width: 768px) {
-      /* Ajustes adicionales para pantallas más grandes */
-      #product-carousel li {
-        width: 40%;
-      }
     }
   }
 }
