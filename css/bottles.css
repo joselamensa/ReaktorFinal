@@ -77,7 +77,7 @@
       }
 
       &:after {
-        transittion: 0.075s;
+        transition: 0.075s;
       }
     }
 
